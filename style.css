@@ -1,0 +1,39 @@
+/* Position de la liste de cartes */
+ul.list-unstyled {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+ul.list-unstyled li {
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 10px;
+}
+
+/* Taille images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+  width: auto;
+}
+
+/* Sépare les items */
+.nav-pills .nav-item {
+  border-right: 1px solid #ccc; /* Ajoute une bordure à droite de chaque élément */
+}
+
+.nav-pills .nav-item:last-child {
+  border-right: none; /* Supprime la bordure à droite du dernier élément */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
